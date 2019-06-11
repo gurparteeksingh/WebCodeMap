@@ -1,0 +1,2209 @@
+The system is: Darwin - 17.4.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/3.12.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/3.12.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_55079/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_55079.dir/build.make CMakeFiles/cmTC_55079.dir/build
+Building C object CMakeFiles/cmTC_55079.dir/testCCompiler.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_55079.dir/testCCompiler.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_55079
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55079.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_55079.dir/testCCompiler.c.o  -o cmTC_55079 
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f998c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f998c.dir/build.make CMakeFiles/cmTC_f998c.dir/build
+Building C object CMakeFiles/cmTC_f998c.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_f998c.dir/CMakeCCompilerABI.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.12/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_f998c
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f998c.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_f998c.dir/CMakeCCompilerABI.c.o  -o cmTC_f998c 
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o cmTC_f998c -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f998c.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-305
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f998c/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f998c.dir/build.make CMakeFiles/cmTC_f998c.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_f998c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_f998c.dir/CMakeCCompilerABI.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_f998c]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f998c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_f998c.dir/CMakeCCompilerABI.c.o  -o cmTC_f998c ]
+  ignore line: [Apple LLVM version 9.0.0 (clang-900.0.39.2)]
+  ignore line: [Target: x86_64-apple-darwin17.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o cmTC_f998c -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f998c.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.13.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f998c] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_f998c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e5cd6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e5cd6.dir/build.make CMakeFiles/cmTC_e5cd6.dir/build
+Building C object CMakeFiles/cmTC_e5cd6.dir/feature_tests.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c11 -o CMakeFiles/cmTC_e5cd6.dir/feature_tests.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e5cd6
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5cd6.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e5cd6.dir/feature_tests.c.o  -o cmTC_e5cd6 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0d477/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0d477.dir/build.make CMakeFiles/cmTC_0d477.dir/build
+Building C object CMakeFiles/cmTC_0d477.dir/feature_tests.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c99 -o CMakeFiles/cmTC_0d477.dir/feature_tests.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0d477
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d477.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0d477.dir/feature_tests.c.o  -o cmTC_0d477 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f2a0d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f2a0d.dir/build.make CMakeFiles/cmTC_f2a0d.dir/build
+Building C object CMakeFiles/cmTC_f2a0d.dir/feature_tests.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c90 -o CMakeFiles/cmTC_f2a0d.dir/feature_tests.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f2a0d
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2a0d.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f2a0d.dir/feature_tests.c.o  -o cmTC_f2a0d 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_41496/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_41496.dir/build.make CMakeFiles/cmTC_41496.dir/build
+Building CXX object CMakeFiles/cmTC_41496.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_41496.dir/testCXXCompiler.cxx.o -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_41496
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41496.dir/link.txt --verbose=1
+/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_41496.dir/testCXXCompiler.cxx.o  -o cmTC_41496 
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f9cf6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f9cf6.dir/build.make CMakeFiles/cmTC_f9cf6.dir/build
+Building CXX object CMakeFiles/cmTC_f9cf6.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_f9cf6.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_f9cf6
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9cf6.dir/link.txt --verbose=1
+/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_f9cf6.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f9cf6 
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o cmTC_f9cf6 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f9cf6.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-305
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f9cf6/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f9cf6.dir/build.make CMakeFiles/cmTC_f9cf6.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_f9cf6.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_f9cf6.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_f9cf6]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9cf6.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_f9cf6.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f9cf6 ]
+  ignore line: [Apple LLVM version 9.0.0 (clang-900.0.39.2)]
+  ignore line: [Target: x86_64-apple-darwin17.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o cmTC_f9cf6 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f9cf6.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.13.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f9cf6] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_f9cf6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4c319/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4c319.dir/build.make CMakeFiles/cmTC_4c319.dir/build
+Building CXX object CMakeFiles/cmTC_4c319.dir/feature_tests.cxx.o
+/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c++1z -o CMakeFiles/cmTC_4c319.dir/feature_tests.cxx.o -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4c319
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c319.dir/link.txt --verbose=1
+/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4c319.dir/feature_tests.cxx.o  -o cmTC_4c319 
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_230b4/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_230b4.dir/build.make CMakeFiles/cmTC_230b4.dir/build
+Building CXX object CMakeFiles/cmTC_230b4.dir/feature_tests.cxx.o
+/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c++14 -o CMakeFiles/cmTC_230b4.dir/feature_tests.cxx.o -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_230b4
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_230b4.dir/link.txt --verbose=1
+/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_230b4.dir/feature_tests.cxx.o  -o cmTC_230b4 
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7ad1e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7ad1e.dir/build.make CMakeFiles/cmTC_7ad1e.dir/build
+Building CXX object CMakeFiles/cmTC_7ad1e.dir/feature_tests.cxx.o
+/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c++11 -o CMakeFiles/cmTC_7ad1e.dir/feature_tests.cxx.o -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7ad1e
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ad1e.dir/link.txt --verbose=1
+/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7ad1e.dir/feature_tests.cxx.o  -o cmTC_7ad1e 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_128a2/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_128a2.dir/build.make CMakeFiles/cmTC_128a2.dir/build
+Building CXX object CMakeFiles/cmTC_128a2.dir/feature_tests.cxx.o
+/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c++98 -o CMakeFiles/cmTC_128a2.dir/feature_tests.cxx.o -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_128a2
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_128a2.dir/link.txt --verbose=1
+/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_128a2.dir/feature_tests.cxx.o  -o cmTC_128a2 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file dirent.h exists passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2c31a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2c31a.dir/build.make CMakeFiles/cmTC_2c31a.dir/build
+Building C object CMakeFiles/cmTC_2c31a.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_2c31a.dir/CheckIncludeFile.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2c31a
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c31a.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2c31a.dir/CheckIncludeFile.c.o  -o cmTC_2c31a 
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4aafa/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4aafa.dir/build.make CMakeFiles/cmTC_4aafa.dir/build
+Building C object CMakeFiles/cmTC_4aafa.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_4aafa.dir/CheckIncludeFile.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4aafa
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4aafa.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4aafa.dir/CheckIncludeFile.c.o  -o cmTC_4aafa 
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9897d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9897d.dir/build.make CMakeFiles/cmTC_9897d.dir/build
+Building C object CMakeFiles/cmTC_9897d.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_9897d.dir/CheckIncludeFile.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9897d
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9897d.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9897d.dir/CheckIncludeFile.c.o  -o cmTC_9897d 
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f0d47/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f0d47.dir/build.make CMakeFiles/cmTC_f0d47.dir/build
+Building C object CMakeFiles/cmTC_f0d47.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_f0d47.dir/CheckIncludeFile.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f0d47
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0d47.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f0d47.dir/CheckIncludeFile.c.o  -o cmTC_f0d47 
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_38f19/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_38f19.dir/build.make CMakeFiles/cmTC_38f19.dir/build
+Building C object CMakeFiles/cmTC_38f19.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_38f19.dir/CheckIncludeFile.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_38f19
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38f19.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_38f19.dir/CheckIncludeFile.c.o  -o cmTC_38f19 
+
+
+Determining if the include file malloc/malloc.h exists passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5cd0c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5cd0c.dir/build.make CMakeFiles/cmTC_5cd0c.dir/build
+Building C object CMakeFiles/cmTC_5cd0c.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_5cd0c.dir/CheckIncludeFile.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5cd0c
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cd0c.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5cd0c.dir/CheckIncludeFile.c.o  -o cmTC_5cd0c 
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7079b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7079b.dir/build.make CMakeFiles/cmTC_7079b.dir/build
+Building C object CMakeFiles/cmTC_7079b.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_7079b.dir/CheckIncludeFile.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7079b
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7079b.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7079b.dir/CheckIncludeFile.c.o  -o cmTC_7079b 
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f1469/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f1469.dir/build.make CMakeFiles/cmTC_f1469.dir/build
+Building C object CMakeFiles/cmTC_f1469.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_f1469.dir/CheckIncludeFile.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f1469
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1469.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f1469.dir/CheckIncludeFile.c.o  -o cmTC_f1469 
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0aeed/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0aeed.dir/build.make CMakeFiles/cmTC_0aeed.dir/build
+Building C object CMakeFiles/cmTC_0aeed.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_0aeed.dir/CheckIncludeFile.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0aeed
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0aeed.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0aeed.dir/CheckIncludeFile.c.o  -o cmTC_0aeed 
+
+
+Determining if the include file sys/dir.h exists passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b582/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8b582.dir/build.make CMakeFiles/cmTC_8b582.dir/build
+Building C object CMakeFiles/cmTC_8b582.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_8b582.dir/CheckIncludeFile.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8b582
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b582.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8b582.dir/CheckIncludeFile.c.o  -o cmTC_8b582 
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c912e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c912e.dir/build.make CMakeFiles/cmTC_c912e.dir/build
+Building C object CMakeFiles/cmTC_c912e.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_c912e.dir/CheckIncludeFile.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c912e
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c912e.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c912e.dir/CheckIncludeFile.c.o  -o cmTC_c912e 
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e86ef/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e86ef.dir/build.make CMakeFiles/cmTC_e86ef.dir/build
+Building C object CMakeFiles/cmTC_e86ef.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_e86ef.dir/CheckIncludeFile.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e86ef
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e86ef.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e86ef.dir/CheckIncludeFile.c.o  -o cmTC_e86ef 
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4fa16/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4fa16.dir/build.make CMakeFiles/cmTC_4fa16.dir/build
+Building C object CMakeFiles/cmTC_4fa16.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_4fa16.dir/CheckIncludeFile.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4fa16
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fa16.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4fa16.dir/CheckIncludeFile.c.o  -o cmTC_4fa16 
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0f094/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0f094.dir/build.make CMakeFiles/cmTC_0f094.dir/build
+Building C object CMakeFiles/cmTC_0f094.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_0f094.dir/CheckIncludeFile.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0f094
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f094.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0f094.dir/CheckIncludeFile.c.o  -o cmTC_0f094 
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f23c2/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f23c2.dir/build.make CMakeFiles/cmTC_f23c2.dir/build
+Building C object CMakeFiles/cmTC_f23c2.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_f23c2.dir/CheckIncludeFile.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f23c2
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f23c2.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f23c2.dir/CheckIncludeFile.c.o  -o cmTC_f23c2 
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b0c8/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7b0c8.dir/build.make CMakeFiles/cmTC_7b0c8.dir/build
+Building C object CMakeFiles/cmTC_7b0c8.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_7b0c8.dir/CheckIncludeFile.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7b0c8
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b0c8.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7b0c8.dir/CheckIncludeFile.c.o  -o cmTC_7b0c8 
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4408b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4408b.dir/build.make CMakeFiles/cmTC_4408b.dir/build
+Building C object CMakeFiles/cmTC_4408b.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_4408b.dir/CheckIncludeFile.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4408b
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4408b.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4408b.dir/CheckIncludeFile.c.o  -o cmTC_4408b 
+
+
+Determining if the include file sys/uio.h exists passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_60bd2/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_60bd2.dir/build.make CMakeFiles/cmTC_60bd2.dir/build
+Building C object CMakeFiles/cmTC_60bd2.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_60bd2.dir/CheckIncludeFile.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_60bd2
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60bd2.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_60bd2.dir/CheckIncludeFile.c.o  -o cmTC_60bd2 
+
+
+Determining if the include file termios.h exists passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a3925/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a3925.dir/build.make CMakeFiles/cmTC_a3925.dir/build
+Building C object CMakeFiles/cmTC_a3925.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_a3925.dir/CheckIncludeFile.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a3925
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3925.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a3925.dir/CheckIncludeFile.c.o  -o cmTC_a3925 
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b9850/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b9850.dir/build.make CMakeFiles/cmTC_b9850.dir/build
+Building C object CMakeFiles/cmTC_b9850.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_b9850.dir/CheckIncludeFile.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b9850
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9850.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b9850.dir/CheckIncludeFile.c.o  -o cmTC_b9850 
+
+
+Determining if the include file zlib.h exists passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3edaf/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3edaf.dir/build.make CMakeFiles/cmTC_3edaf.dir/build
+Building C object CMakeFiles/cmTC_3edaf.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_3edaf.dir/CheckIncludeFile.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3edaf
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3edaf.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3edaf.dir/CheckIncludeFile.c.o  -o cmTC_3edaf 
+
+
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_12f37/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_12f37.dir/build.make CMakeFiles/cmTC_12f37.dir/build
+Building C object CMakeFiles/cmTC_12f37.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_12f37.dir/CheckIncludeFile.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_12f37
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12f37.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_12f37.dir/CheckIncludeFile.c.o  -o cmTC_12f37 
+
+
+Determining if the FE_ALL_EXCEPT exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_37937/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_37937.dir/build.make CMakeFiles/cmTC_37937.dir/build
+Building C object CMakeFiles/cmTC_37937.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_37937.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_37937
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37937.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_37937.dir/CheckSymbolExists.c.o  -o cmTC_37937 -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_ALL_EXCEPT
+  return ((int*)(&FE_ALL_EXCEPT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the FE_INEXACT exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_07c59/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_07c59.dir/build.make CMakeFiles/cmTC_07c59.dir/build
+Building C object CMakeFiles/cmTC_07c59.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_07c59.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_07c59
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07c59.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_07c59.dir/CheckSymbolExists.c.o  -o cmTC_07c59 -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_INEXACT
+  return ((int*)(&FE_INEXACT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file mach/mach.h exists passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51526/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_51526.dir/build.make CMakeFiles/cmTC_51526.dir/build
+Building C object CMakeFiles/cmTC_51526.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_51526.dir/CheckIncludeFile.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_51526
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51526.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_51526.dir/CheckIncludeFile.c.o  -o cmTC_51526 
+
+
+Determining if the include file histedit.h exists passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_86289/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_86289.dir/build.make CMakeFiles/cmTC_86289.dir/build
+Building C object CMakeFiles/cmTC_86289.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_86289.dir/CheckIncludeFile.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_86289
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86289.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_86289.dir/CheckIncludeFile.c.o  -o cmTC_86289 
+
+
+Performing C SOURCE FILE Test HAVE_CRASHREPORTER_INFO succeeded with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1104b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1104b.dir/build.make CMakeFiles/cmTC_1104b.dir/build
+Building C object CMakeFiles/cmTC_1104b.dir/src.c.o
+/usr/bin/cc   -DHAVE_CRASHREPORTER_INFO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_1104b.dir/src.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1104b
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1104b.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_CRASHREPORTER_INFO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1104b.dir/src.c.o  -o cmTC_1104b -lm 
+
+Source file was:
+
+     static const char *__crashreporter_info__ = 0;
+     asm(".desc ___crashreporter_info__, 0x10");
+     int main() { return 0; }
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fec7e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fec7e.dir/build.make CMakeFiles/cmTC_fec7e.dir/build
+Building C object CMakeFiles/cmTC_fec7e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_fec7e.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fec7e
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fec7e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fec7e.dir/CheckFunctionExists.c.o  -o cmTC_fec7e -lpthread -lm 
+
+
+Determining if the function pthread_getspecific exists in the pthread passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fb5a4/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fb5a4.dir/build.make CMakeFiles/cmTC_fb5a4.dir/build
+Building C object CMakeFiles/cmTC_fb5a4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_getspecific -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_fb5a4.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fb5a4
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb5a4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_getspecific -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fb5a4.dir/CheckFunctionExists.c.o  -o cmTC_fb5a4 -lpthread -lm 
+
+
+Determining if the function pthread_rwlock_init exists in the pthread passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_766f7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_766f7.dir/build.make CMakeFiles/cmTC_766f7.dir/build
+Building C object CMakeFiles/cmTC_766f7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_766f7.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_766f7
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_766f7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_766f7.dir/CheckFunctionExists.c.o  -o cmTC_766f7 -lpthread -lm 
+
+
+Determining if the function pthread_mutex_lock exists in the pthread passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc2eb/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_dc2eb.dir/build.make CMakeFiles/cmTC_dc2eb.dir/build
+Building C object CMakeFiles/cmTC_dc2eb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_dc2eb.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dc2eb
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc2eb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_dc2eb.dir/CheckFunctionExists.c.o  -o cmTC_dc2eb -lpthread -lm 
+
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dd492/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_dd492.dir/build.make CMakeFiles/cmTC_dd492.dir/build
+Building C object CMakeFiles/cmTC_dd492.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlopen -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_dd492.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dd492
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd492.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dlopen -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_dd492.dir/CheckFunctionExists.c.o  -o cmTC_dd492 -ldl -lm 
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fd917/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fd917.dir/build.make CMakeFiles/cmTC_fd917.dir/build
+Building C object CMakeFiles/cmTC_fd917.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_fd917.dir/CheckIncludeFile.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fd917
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd917.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fd917.dir/CheckIncludeFile.c.o  -o cmTC_fd917 
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8dcd/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c8dcd.dir/build.make CMakeFiles/cmTC_c8dcd.dir/build
+Building C object CMakeFiles/cmTC_c8dcd.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_c8dcd.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c8dcd
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8dcd.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c8dcd.dir/CheckSymbolExists.c.o  -o cmTC_c8dcd -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function compress2 exists in the z passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0e809/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0e809.dir/build.make CMakeFiles/cmTC_0e809.dir/build
+Building C object CMakeFiles/cmTC_0e809.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=compress2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_0e809.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0e809
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e809.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=compress2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0e809.dir/CheckFunctionExists.c.o  -o cmTC_0e809 -lz -lm 
+
+
+Determining if the function el_init exists in the edit passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_803f8/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_803f8.dir/build.make CMakeFiles/cmTC_803f8.dir/build
+Building C object CMakeFiles/cmTC_803f8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=el_init -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_803f8.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_803f8
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_803f8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=el_init -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_803f8.dir/CheckFunctionExists.c.o  -o cmTC_803f8 -ledit -lm 
+
+
+Determining if the function setupterm exists in the curses passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f494c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f494c.dir/build.make CMakeFiles/cmTC_f494c.dir/build
+Building C object CMakeFiles/cmTC_f494c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setupterm -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_f494c.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f494c
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f494c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setupterm -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f494c.dir/CheckFunctionExists.c.o  -o cmTC_f494c -lcurses -lm 
+
+
+Determining if the function xar_open exists in the xar passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f8ff5/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f8ff5.dir/build.make CMakeFiles/cmTC_f8ff5.dir/build
+Building C object CMakeFiles/cmTC_f8ff5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=xar_open -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_f8ff5.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f8ff5
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8ff5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=xar_open -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f8ff5.dir/CheckFunctionExists.c.o  -o cmTC_f8ff5 -lxar -lm 
+
+
+Determining if the arc4random exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0f236/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0f236.dir/build.make CMakeFiles/cmTC_0f236.dir/build
+Building C object CMakeFiles/cmTC_0f236.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_0f236.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0f236
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f236.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0f236.dir/CheckSymbolExists.c.o  -o cmTC_0f236 -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random
+  return ((int*)(&arc4random))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the backtrace exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_45630/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_45630.dir/build.make CMakeFiles/cmTC_45630.dir/build
+Building C object CMakeFiles/cmTC_45630.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_45630.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_45630
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45630.dir/link.txt --verbose=1
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_45630.dir/CheckSymbolExists.c.o  -o cmTC_45630 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW succeeded with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f4c77/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f4c77.dir/build.make CMakeFiles/cmTC_f4c77.dir/build
+Building C object CMakeFiles/cmTC_f4c77.dir/src.c.o
+/usr/bin/cc   -DC_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -Werror=unguarded-availability-new -o CMakeFiles/cmTC_f4c77.dir/src.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f4c77
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4c77.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f4c77.dir/src.c.o  -o cmTC_f4c77 -lm 
+
+Source file was:
+int main(void) { return 0; }
+Determining if the _Unwind_Backtrace exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6202d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6202d.dir/build.make CMakeFiles/cmTC_6202d.dir/build
+Building C object CMakeFiles/cmTC_6202d.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_6202d.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6202d
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6202d.dir/link.txt --verbose=1
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6202d.dir/CheckSymbolExists.c.o  -o cmTC_6202d -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Unwind_Backtrace
+  return ((int*)(&_Unwind_Backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getpagesize exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_70698/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_70698.dir/build.make CMakeFiles/cmTC_70698.dir/build
+Building C object CMakeFiles/cmTC_70698.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_70698.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_70698
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70698.dir/link.txt --verbose=1
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_70698.dir/CheckSymbolExists.c.o  -o cmTC_70698 -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sysconf exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6fdc8/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6fdc8.dir/build.make CMakeFiles/cmTC_6fdc8.dir/build
+Building C object CMakeFiles/cmTC_6fdc8.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_6fdc8.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6fdc8
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fdc8.dir/link.txt --verbose=1
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6fdc8.dir/CheckSymbolExists.c.o  -o cmTC_6fdc8 -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getrusage exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ee8a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1ee8a.dir/build.make CMakeFiles/cmTC_1ee8a.dir/build
+Building C object CMakeFiles/cmTC_1ee8a.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_1ee8a.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1ee8a
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ee8a.dir/link.txt --verbose=1
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1ee8a.dir/CheckSymbolExists.c.o  -o cmTC_1ee8a -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrusage
+  return ((int*)(&getrusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setrlimit exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6e68f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6e68f.dir/build.make CMakeFiles/cmTC_6e68f.dir/build
+Building C object CMakeFiles/cmTC_6e68f.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_6e68f.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6e68f
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e68f.dir/link.txt --verbose=1
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6e68f.dir/CheckSymbolExists.c.o  -o cmTC_6e68f -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isatty exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_78b34/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_78b34.dir/build.make CMakeFiles/cmTC_78b34.dir/build
+Building C object CMakeFiles/cmTC_78b34.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_78b34.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_78b34
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78b34.dir/link.txt --verbose=1
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_78b34.dir/CheckSymbolExists.c.o  -o cmTC_78b34 -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isatty
+  return ((int*)(&isatty))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the futimens exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8c55a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8c55a.dir/build.make CMakeFiles/cmTC_8c55a.dir/build
+Building C object CMakeFiles/cmTC_8c55a.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_8c55a.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8c55a
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c55a.dir/link.txt --verbose=1
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8c55a.dir/CheckSymbolExists.c.o  -o cmTC_8c55a -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimens
+  return ((int*)(&futimens))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the futimes exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eb838/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_eb838.dir/build.make CMakeFiles/cmTC_eb838.dir/build
+Building C object CMakeFiles/cmTC_eb838.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_eb838.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_eb838
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb838.dir/link.txt --verbose=1
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_eb838.dir/CheckSymbolExists.c.o  -o cmTC_eb838 -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimes
+  return ((int*)(&futimes))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the writev exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_44bc7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_44bc7.dir/build.make CMakeFiles/cmTC_44bc7.dir/build
+Building C object CMakeFiles/cmTC_44bc7.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_44bc7.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_44bc7
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44bc7.dir/link.txt --verbose=1
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_44bc7.dir/CheckSymbolExists.c.o  -o cmTC_44bc7 -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/uio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef writev
+  return ((int*)(&writev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the malloc_zone_statistics exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_68a94/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_68a94.dir/build.make CMakeFiles/cmTC_68a94.dir/build
+Building C object CMakeFiles/cmTC_68a94.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_68a94.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_68a94
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68a94.dir/link.txt --verbose=1
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_68a94.dir/CheckSymbolExists.c.o  -o cmTC_68a94 -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc/malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef malloc_zone_statistics
+  return ((int*)(&malloc_zone_statistics))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mkdtemp exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_44259/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_44259.dir/build.make CMakeFiles/cmTC_44259.dir/build
+Building C object CMakeFiles/cmTC_44259.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_44259.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_44259
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44259.dir/link.txt --verbose=1
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_44259.dir/CheckSymbolExists.c.o  -o cmTC_44259 -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mkdtemp
+  return ((int*)(&mkdtemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mkstemp exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8c488/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8c488.dir/build.make CMakeFiles/cmTC_8c488.dir/build
+Building C object CMakeFiles/cmTC_8c488.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_8c488.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8c488
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c488.dir/link.txt --verbose=1
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8c488.dir/CheckSymbolExists.c.o  -o cmTC_8c488 -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mkstemp
+  return ((int*)(&mkstemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mktemp exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49739/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_49739.dir/build.make CMakeFiles/cmTC_49739.dir/build
+Building C object CMakeFiles/cmTC_49739.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_49739.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_49739
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49739.dir/link.txt --verbose=1
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_49739.dir/CheckSymbolExists.c.o  -o cmTC_49739 -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mktemp
+  return ((int*)(&mktemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getcwd exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e912d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e912d.dir/build.make CMakeFiles/cmTC_e912d.dir/build
+Building C object CMakeFiles/cmTC_e912d.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_e912d.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e912d
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e912d.dir/link.txt --verbose=1
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e912d.dir/CheckSymbolExists.c.o  -o cmTC_e912d -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getcwd
+  return ((int*)(&getcwd))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_58c11/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_58c11.dir/build.make CMakeFiles/cmTC_58c11.dir/build
+Building C object CMakeFiles/cmTC_58c11.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_58c11.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_58c11
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58c11.dir/link.txt --verbose=1
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_58c11.dir/CheckSymbolExists.c.o  -o cmTC_58c11 -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getrlimit exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_07c32/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_07c32.dir/build.make CMakeFiles/cmTC_07c32.dir/build
+Building C object CMakeFiles/cmTC_07c32.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_07c32.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_07c32
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07c32.dir/link.txt --verbose=1
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_07c32.dir/CheckSymbolExists.c.o  -o cmTC_07c32 -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the posix_spawn exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d3113/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d3113.dir/build.make CMakeFiles/cmTC_d3113.dir/build
+Building C object CMakeFiles/cmTC_d3113.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_d3113.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d3113
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3113.dir/link.txt --verbose=1
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d3113.dir/CheckSymbolExists.c.o  -o cmTC_d3113 -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <spawn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_spawn
+  return ((int*)(&posix_spawn))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pread exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46985/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_46985.dir/build.make CMakeFiles/cmTC_46985.dir/build
+Building C object CMakeFiles/cmTC_46985.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_46985.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_46985
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46985.dir/link.txt --verbose=1
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_46985.dir/CheckSymbolExists.c.o  -o cmTC_46985 -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pread
+  return ((int*)(&pread))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the realpath exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1c32b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1c32b.dir/build.make CMakeFiles/cmTC_1c32b.dir/build
+Building C object CMakeFiles/cmTC_1c32b.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_1c32b.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1c32b
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c32b.dir/link.txt --verbose=1
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1c32b.dir/CheckSymbolExists.c.o  -o cmTC_1c32b -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef realpath
+  return ((int*)(&realpath))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sbrk exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3ac66/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3ac66.dir/build.make CMakeFiles/cmTC_3ac66.dir/build
+Building C object CMakeFiles/cmTC_3ac66.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_3ac66.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: warning: 'sbrk' is deprecated [-Wdeprecated-declarations]
+  return ((int*)(&sbrk))[argc];
+                  ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/unistd.h:585:1: note: 'sbrk' has been explicitly marked deprecated here
+__deprecated __WATCHOS_PROHIBITED __TVOS_PROHIBITED
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/sys/cdefs.h:176:37: note: expanded from macro '__deprecated'
+#define __deprecated    __attribute__((deprecated))
+                                       ^
+1 warning generated.
+Linking C executable cmTC_3ac66
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ac66.dir/link.txt --verbose=1
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3ac66.dir/CheckSymbolExists.c.o  -o cmTC_3ac66 -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sbrk
+  return ((int*)(&sbrk))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoll exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_362e5/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_362e5.dir/build.make CMakeFiles/cmTC_362e5.dir/build
+Building C object CMakeFiles/cmTC_362e5.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_362e5.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_362e5
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_362e5.dir/link.txt --verbose=1
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_362e5.dir/CheckSymbolExists.c.o  -o cmTC_362e5 -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_951f7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_951f7.dir/build.make CMakeFiles/cmTC_951f7.dir/build
+Building C object CMakeFiles/cmTC_951f7.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_951f7.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_951f7
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_951f7.dir/link.txt --verbose=1
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_951f7.dir/CheckSymbolExists.c.o  -o cmTC_951f7 -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror_r exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0ac1e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0ac1e.dir/build.make CMakeFiles/cmTC_0ac1e.dir/build
+Building C object CMakeFiles/cmTC_0ac1e.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_0ac1e.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0ac1e
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ac1e.dir/link.txt --verbose=1
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0ac1e.dir/CheckSymbolExists.c.o  -o cmTC_0ac1e -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setenv exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f4dca/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f4dca.dir/build.make CMakeFiles/cmTC_f4dca.dir/build
+Building C object CMakeFiles/cmTC_f4dca.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_f4dca.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f4dca
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4dca.dir/link.txt --verbose=1
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f4dca.dir/CheckSymbolExists.c.o  -o cmTC_f4dca -lm 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the dlopen exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cd693/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cd693.dir/build.make CMakeFiles/cmTC_cd693.dir/build
+Building C object CMakeFiles/cmTC_cd693.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_cd693.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cd693
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd693.dir/link.txt --verbose=1
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cd693.dir/CheckSymbolExists.c.o  -o cmTC_cd693 -lm -ldl 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the dladdr exist passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_33135/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_33135.dir/build.make CMakeFiles/cmTC_33135.dir/build
+Building C object CMakeFiles/cmTC_33135.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_33135.dir/CheckSymbolExists.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_33135
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33135.dir/link.txt --verbose=1
+/usr/bin/cc   -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_33135.dir/CheckSymbolExists.c.o  -o cmTC_33135 -lm -ldl 
+
+File /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dladdr
+  return ((int*)(&dladdr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_getname_np exists in the pthread passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_67837/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_67837.dir/build.make CMakeFiles/cmTC_67837.dir/build
+Building C object CMakeFiles/cmTC_67837.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_getname_np  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_67837.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_67837
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67837.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_getname_np  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_67837.dir/CheckFunctionExists.c.o  -o cmTC_67837 -lpthread -lm 
+
+
+Determining if the function pthread_setname_np exists in the pthread passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_11613/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_11613.dir/build.make CMakeFiles/cmTC_11613.dir/build
+Building C object CMakeFiles/cmTC_11613.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_setname_np  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_11613.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_11613
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11613.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_setname_np  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_11613.dir/CheckFunctionExists.c.o  -o cmTC_11613 -lpthread -lm 
+
+
+Performing C++ SOURCE FILE Test HAVE_INT64_T succeeded with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51e3f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_51e3f.dir/build.make CMakeFiles/cmTC_51e3f.dir/build
+Building CXX object CMakeFiles/cmTC_51e3f.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_INT64_T  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_51e3f.dir/src.cxx.o -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_51e3f
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51e3f.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_INT64_T  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_51e3f.dir/src.cxx.o  -o cmTC_51e3f -lm 
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ int64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_UINT64_T succeeded with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e6b4d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e6b4d.dir/build.make CMakeFiles/cmTC_e6b4d.dir/build
+Building CXX object CMakeFiles/cmTC_e6b4d.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_UINT64_T  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_e6b4d.dir/src.cxx.o -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e6b4d
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6b4d.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_UINT64_T  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e6b4d.dir/src.cxx.o  -o cmTC_e6b4d -lm 
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ uint64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_U_INT64_T succeeded with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_03fe5/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_03fe5.dir/build.make CMakeFiles/cmTC_03fe5.dir/build
+Building CXX object CMakeFiles/cmTC_03fe5.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_U_INT64_T  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_03fe5.dir/src.cxx.o -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_03fe5
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03fe5.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_U_INT64_T  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_03fe5.dir/src.cxx.o  -o cmTC_03fe5 -lm 
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ u_int64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS_WITHOUT_LIB succeeded with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1839a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1839a.dir/build.make CMakeFiles/cmTC_1839a.dir/build
+Building CXX object CMakeFiles/cmTC_1839a.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CXX_ATOMICS_WITHOUT_LIB  -Werror=unguarded-availability-new -std=c++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_1839a.dir/src.cxx.o -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1839a
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1839a.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_CXX_ATOMICS_WITHOUT_LIB  -Werror=unguarded-availability-new -std=c++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1839a.dir/src.cxx.o  -o cmTC_1839a -lm 
+
+Source file was:
+
+#include <atomic>
+std::atomic<int> x;
+int main() {
+  return x;
+}
+
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS64_WITHOUT_LIB succeeded with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c9c39/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c9c39.dir/build.make CMakeFiles/cmTC_c9c39.dir/build
+Building CXX object CMakeFiles/cmTC_c9c39.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CXX_ATOMICS64_WITHOUT_LIB -std=c++11  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_c9c39.dir/src.cxx.o -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c9c39
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9c39.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_CXX_ATOMICS64_WITHOUT_LIB -std=c++11  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c9c39.dir/src.cxx.o  -o cmTC_c9c39 -lm 
+
+Source file was:
+
+#include <atomic>
+#include <cstdint>
+std::atomic<uint64_t> x (0);
+int main() {
+  uint64_t i = x.load(std::memory_order_relaxed);
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test LLVM_HAS_ATOMICS succeeded with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_db86e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_db86e.dir/build.make CMakeFiles/cmTC_db86e.dir/build
+Building CXX object CMakeFiles/cmTC_db86e.dir/src.cxx.o
+/usr/bin/c++    -DLLVM_HAS_ATOMICS  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_db86e.dir/src.cxx.o -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_db86e
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db86e.dir/link.txt --verbose=1
+/usr/bin/c++   -DLLVM_HAS_ATOMICS  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_db86e.dir/src.cxx.o  -o cmTC_db86e -lm 
+
+Source file was:
+
+#ifdef _MSC_VER
+#include <windows.h>
+#endif
+int main() {
+#ifdef _MSC_VER
+        volatile LONG val = 1;
+        MemoryBarrier();
+        InterlockedCompareExchange(&val, 0, 1);
+        InterlockedIncrement(&val);
+        InterlockedDecrement(&val);
+#else
+        volatile unsigned long val = 1;
+        __sync_synchronize();
+        __sync_val_compare_and_swap(&val, 1, 0);
+        __sync_add_and_fetch(&val, 1);
+        __sync_sub_and_fetch(&val, 1);
+#endif
+        return 0;
+      }
+
+Performing C++ SOURCE FILE Test SUPPORTS_VARIADIC_MACROS_FLAG succeeded with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_20a1e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_20a1e.dir/build.make CMakeFiles/cmTC_20a1e.dir/build
+Building CXX object CMakeFiles/cmTC_20a1e.dir/src.cxx.o
+/usr/bin/c++    -DSUPPORTS_VARIADIC_MACROS_FLAG  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -Wvariadic-macros -o CMakeFiles/cmTC_20a1e.dir/src.cxx.o -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_20a1e
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20a1e.dir/link.txt --verbose=1
+/usr/bin/c++   -DSUPPORTS_VARIADIC_MACROS_FLAG  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_20a1e.dir/src.cxx.o  -o cmTC_20a1e -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG succeeded with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e3156/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e3156.dir/build.make CMakeFiles/cmTC_e3156.dir/build
+Building CXX object CMakeFiles/cmTC_e3156.dir/src.cxx.o
+/usr/bin/c++    -DSUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -Wgnu-zero-variadic-macro-arguments -o CMakeFiles/cmTC_e3156.dir/src.cxx.o -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e3156
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3156.dir/link.txt --verbose=1
+/usr/bin/c++   -DSUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e3156.dir/src.cxx.o  -o cmTC_e3156 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aa48a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_aa48a.dir/build.make CMakeFiles/cmTC_aa48a.dir/build
+Building C object CMakeFiles/cmTC_aa48a.dir/src.c.o
+/usr/bin/cc   -DC_SUPPORTS_FPIC  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -Werror -fPIC -o CMakeFiles/cmTC_aa48a.dir/src.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_aa48a
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa48a.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_SUPPORTS_FPIC  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_aa48a.dir/src.c.o  -o cmTC_aa48a -lm 
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_80d22/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_80d22.dir/build.make CMakeFiles/cmTC_80d22.dir/build
+Building CXX object CMakeFiles/cmTC_80d22.dir/src.cxx.o
+/usr/bin/c++    -DCXX_SUPPORTS_FPIC  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -Werror -fPIC -o CMakeFiles/cmTC_80d22.dir/src.cxx.o -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_80d22
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80d22.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_SUPPORTS_FPIC  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_80d22.dir/src.cxx.o  -o cmTC_80d22 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG succeeded with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bc5ad/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bc5ad.dir/build.make CMakeFiles/cmTC_bc5ad.dir/build
+Building CXX object CMakeFiles/cmTC_bc5ad.dir/src.cxx.o
+/usr/bin/c++    -fPIC -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_bc5ad.dir/src.cxx.o -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bc5ad
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc5ad.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bc5ad.dir/src.cxx.o  -o cmTC_bc5ad -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_98068/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_98068.dir/build.make CMakeFiles/cmTC_98068.dir/build
+Building C object CMakeFiles/cmTC_98068.dir/src.c.o
+/usr/bin/cc   -fPIC -DC_SUPPORTS_WERROR_DATE_TIME  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -Werror -Werror=date-time -o CMakeFiles/cmTC_98068.dir/src.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_98068
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98068.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DC_SUPPORTS_WERROR_DATE_TIME  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_98068.dir/src.c.o  -o cmTC_98068 -lm 
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3dbb0/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3dbb0.dir/build.make CMakeFiles/cmTC_3dbb0.dir/build
+Building CXX object CMakeFiles/cmTC_3dbb0.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -DCXX_SUPPORTS_WERROR_DATE_TIME  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -Werror -Werror=date-time -o CMakeFiles/cmTC_3dbb0.dir/src.cxx.o -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3dbb0
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3dbb0.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -DCXX_SUPPORTS_WERROR_DATE_TIME  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3dbb0.dir/src.cxx.o  -o cmTC_3dbb0 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW succeeded with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_01362/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_01362.dir/build.make CMakeFiles/cmTC_01362.dir/build
+Building CXX object CMakeFiles/cmTC_01362.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -DCXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -Werror -Werror=unguarded-availability-new -o CMakeFiles/cmTC_01362.dir/src.cxx.o -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_01362
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01362.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -DCXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_01362.dir/src.cxx.o  -o cmTC_01362 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_87673/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_87673.dir/build.make CMakeFiles/cmTC_87673.dir/build
+Building CXX object CMakeFiles/cmTC_87673.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -DCXX_SUPPORTS_CXX11  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -std=c++11 -o CMakeFiles/cmTC_87673.dir/src.cxx.o -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_87673
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87673.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -DCXX_SUPPORTS_CXX11  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_87673.dir/src.cxx.o  -o cmTC_87673 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG succeeded with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b2c7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7b2c7.dir/build.make CMakeFiles/cmTC_7b2c7.dir/build
+Building CXX object CMakeFiles/cmTC_7b2c7.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -DCXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -Wmissing-field-initializers -o CMakeFiles/cmTC_7b2c7.dir/src.cxx.o -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7b2c7
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b2c7.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -DCXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7b2c7.dir/src.cxx.o  -o cmTC_7b2c7 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG succeeded with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_74f5f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_74f5f.dir/build.make CMakeFiles/cmTC_74f5f.dir/build
+Building C object CMakeFiles/cmTC_74f5f.dir/src.c.o
+/usr/bin/cc   -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -DC_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -Werror -Wcovered-switch-default -o CMakeFiles/cmTC_74f5f.dir/src.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_74f5f
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74f5f.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -DC_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_74f5f.dir/src.c.o  -o cmTC_74f5f -lm 
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG succeeded with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6c631/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6c631.dir/build.make CMakeFiles/cmTC_6c631.dir/build
+Building CXX object CMakeFiles/cmTC_6c631.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -DCXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -Werror -Wcovered-switch-default -o CMakeFiles/cmTC_6c631.dir/src.cxx.o -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6c631
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c631.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -DCXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6c631.dir/src.cxx.o  -o cmTC_6c631 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_WONT_WARN_ON_FINAL_NONVIRTUALDTOR succeeded with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cb8d7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cb8d7.dir/build.make CMakeFiles/cmTC_cb8d7.dir/build
+Building CXX object CMakeFiles/cmTC_cb8d7.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -DCXX_WONT_WARN_ON_FINAL_NONVIRTUALDTOR  -Werror=unguarded-availability-new -std=c++11 -Werror=non-virtual-dtor -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_cb8d7.dir/src.cxx.o -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cb8d7
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb8d7.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -DCXX_WONT_WARN_ON_FINAL_NONVIRTUALDTOR  -Werror=unguarded-availability-new -std=c++11 -Werror=non-virtual-dtor -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cb8d7.dir/src.cxx.o  -o cmTC_cb8d7 -lm 
+
+Source file was:
+class base {public: virtual void anchor();protected: ~base();};
+                               class derived final : public base { public: ~derived();};
+                               int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG succeeded with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a6d9b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a6d9b.dir/build.make CMakeFiles/cmTC_a6d9b.dir/build
+Building C object CMakeFiles/cmTC_a6d9b.dir/src.c.o
+/usr/bin/cc   -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -DC_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -Werror -Wdelete-non-virtual-dtor -o CMakeFiles/cmTC_a6d9b.dir/src.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a6d9b
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6d9b.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -DC_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a6d9b.dir/src.c.o  -o cmTC_a6d9b -lm 
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG succeeded with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_24256/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_24256.dir/build.make CMakeFiles/cmTC_24256.dir/build
+Building CXX object CMakeFiles/cmTC_24256.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wnon-virtual-dtor -DCXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -Werror -Wdelete-non-virtual-dtor -o CMakeFiles/cmTC_24256.dir/src.cxx.o -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_24256
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24256.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wnon-virtual-dtor -DCXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_24256.dir/src.cxx.o  -o cmTC_24256 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_WCOMMENT_ALLOWS_LINE_WRAP succeeded with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_466f7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_466f7.dir/build.make CMakeFiles/cmTC_466f7.dir/build
+Building C object CMakeFiles/cmTC_466f7.dir/src.c.o
+/usr/bin/cc   -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wdelete-non-virtual-dtor -DC_WCOMMENT_ALLOWS_LINE_WRAP  -Werror=unguarded-availability-new -Werror -Wcomment -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_466f7.dir/src.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_466f7
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_466f7.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wdelete-non-virtual-dtor -DC_WCOMMENT_ALLOWS_LINE_WRAP  -Werror=unguarded-availability-new -Werror -Wcomment -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_466f7.dir/src.c.o  -o cmTC_466f7 -lm 
+
+Source file was:
+// \
+//
+int main() {return 0;}
+Performing C SOURCE FILE Test C_SUPPORTS_STRING_CONVERSION_FLAG succeeded with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2b87a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2b87a.dir/build.make CMakeFiles/cmTC_2b87a.dir/build
+Building C object CMakeFiles/cmTC_2b87a.dir/src.c.o
+/usr/bin/cc   -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wdelete-non-virtual-dtor -DC_SUPPORTS_STRING_CONVERSION_FLAG  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -Werror -Wstring-conversion -o CMakeFiles/cmTC_2b87a.dir/src.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2b87a
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b87a.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wdelete-non-virtual-dtor -DC_SUPPORTS_STRING_CONVERSION_FLAG  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2b87a.dir/src.c.o  -o cmTC_2b87a -lm 
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_STRING_CONVERSION_FLAG succeeded with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e763a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e763a.dir/build.make CMakeFiles/cmTC_e763a.dir/build
+Building CXX object CMakeFiles/cmTC_e763a.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -DCXX_SUPPORTS_STRING_CONVERSION_FLAG  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -Werror -Wstring-conversion -o CMakeFiles/cmTC_e763a.dir/src.cxx.o -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e763a
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e763a.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -DCXX_SUPPORTS_STRING_CONVERSION_FLAG  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e763a.dir/src.cxx.o  -o cmTC_e763a -lm 
+
+Source file was:
+int main() { return 0; }
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_17b88/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_17b88.dir/build.make CMakeFiles/cmTC_17b88.dir/build
+Building C object CMakeFiles/cmTC_17b88.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wdelete-non-virtual-dtor -Wstring-conversion  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_17b88.dir/CheckIncludeFile.c.o   -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_17b88
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17b88.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wdelete-non-virtual-dtor -Wstring-conversion  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_17b88.dir/CheckIncludeFile.c.o  -o cmTC_17b88 
+
+
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG succeeded with the following output:
+Change Dir: /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a29f4/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a29f4.dir/build.make CMakeFiles/cmTC_a29f4.dir/build
+Building CXX object CMakeFiles/cmTC_a29f4.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion -fno-common -Woverloaded-virtual -DCXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -Werror -Wnested-anon-types -o CMakeFiles/cmTC_a29f4.dir/src.cxx.o -c /Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a29f4
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a29f4.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion -fno-common -Woverloaded-virtual -DCXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG  -Werror=unguarded-availability-new -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a29f4.dir/src.cxx.o  -o cmTC_a29f4 -lm 
+
+Source file was:
+int main() { return 0; }

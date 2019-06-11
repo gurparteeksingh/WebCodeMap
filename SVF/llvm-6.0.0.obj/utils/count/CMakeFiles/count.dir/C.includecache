@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/gs/Documents/Capstone/SVF/llvm-6.0.0.src/utils/count/count.c
+stdlib.h
+-
+stdio.h
+-
+

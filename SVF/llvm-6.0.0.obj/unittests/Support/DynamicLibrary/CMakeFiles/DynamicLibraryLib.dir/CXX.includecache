@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/gs/Documents/Capstone/SVF/llvm-6.0.0.src/unittests/Support/DynamicLibrary/ExportedFuncs.cxx
+PipSqueak.h
+/Users/gs/Documents/Capstone/SVF/llvm-6.0.0.src/unittests/Support/DynamicLibrary/PipSqueak.h
+
+/Users/gs/Documents/Capstone/SVF/llvm-6.0.0.src/unittests/Support/DynamicLibrary/PipSqueak.h
+string
+-
+vector
+-
+string
+-
+vector
+-
+

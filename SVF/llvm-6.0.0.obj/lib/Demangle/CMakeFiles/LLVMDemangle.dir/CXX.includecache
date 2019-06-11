@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/gs/Documents/Capstone/SVF/llvm-6.0.0.src/include/llvm/Demangle/Demangle.h
+cstddef
+-
+
+/Users/gs/Documents/Capstone/SVF/llvm-6.0.0.src/include/llvm/Support/Compiler.h
+llvm/Config/llvm-config.h
+/Users/gs/Documents/Capstone/SVF/llvm-6.0.0.src/include/llvm/Support/llvm/Config/llvm-config.h
+sal.h
+-
+sanitizer/msan_interface.h
+-
+sanitizer/asan_interface.h
+-
+
+/Users/gs/Documents/Capstone/SVF/llvm-6.0.0.src/lib/Demangle/ItaniumDemangle.cpp
+llvm/Demangle/Demangle.h
+/Users/gs/Documents/Capstone/SVF/llvm-6.0.0.src/lib/Demangle/llvm/Demangle/Demangle.h
+llvm/Support/Compiler.h
+/Users/gs/Documents/Capstone/SVF/llvm-6.0.0.src/lib/Demangle/llvm/Support/Compiler.h
+algorithm
+-
+cctype
+-
+cstdlib
+-
+cstring
+-
+numeric
+-
+string
+-
+vector
+-
+
+include/llvm/Config/llvm-config.h
+

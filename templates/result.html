@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Result</title>  <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="static/img/ico/favicon.ico">
+    <link rel="apple-touch-icon" sizes="144x144" href="static/img/ico/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="static/img/ico/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="static/img/ico/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" href="static/img/ico/apple-touch-icon-57x57.png">
+
+    <title>CODEMAP</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/animate.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="static/css/style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="static/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="static/css/pe-icons.css" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="static/js/jquery.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+           'use strict';
+        jQuery('#headerwrap').backstretch([
+          "static/img/bg/bg1.jpg",
+          "static/img/bg/bg2.jpg",
+          "static/img/bg/bg3.jpg"
+        ], {duration: 8000, fade: 500});
+
+    });
+    </script>
+</head>
+<body>
+        <div class="preloader">
+                <div class="preloader-img">
+                    <img src="static/img/loading-bars.svg" width="100" alt="Loading icon" />
+                </div>
+            </div>
+        
+            <!-- Header -->
+            <header id="headerwrap" class="fullheight">
+                <div class="container">
+                    <div class="intro-text">
+                            <h1>
+                                   <strong>RESULTS FOR </strong>
+                            </h1>
+                            <h1>
+                                    {{link}}
+                            </h1>
+                            <br>
+                            <br>
+                            <form style="text-align:center" name="passdata" action="/getGraph" method="post">
+                                    <input type="submit" class="btn btn-success" value="Force Graph"/>
+                                    &nbsp;&nbsp;
+                                    <input type="submit" class="btn btn-success" value="VR Force Graph" disabled/>
+                            </form>
+                    </div>
+                </div>
+            </header>  
+          <!-- Bootstrap Core JavaScript -->
+          <script src="static/js/bootstrap.min.js"></script>
+          <!-- Plugin JavaScript -->
+          <script src="static/js/plugins.js"></script>
+</body>
+</html>
