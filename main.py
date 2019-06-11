@@ -32,7 +32,7 @@ def getLink():
     os.system("make > makeOutput.txt") 
 
     #search for the built target file name
-    searchfile = open(("/Users/gs/Documents/Capstone/user-project{}/master-bin/makeOutput.txt").format(i), "r")
+    searchfile = open(("/Users/gs/Documents/WebCodeMap/user-project{}/master-bin/makeOutput.txt").format(i), "r")
     for line in searchfile:
         if "[100%] Built target" in line: 
             lastLine = line
@@ -44,29 +44,29 @@ def getLink():
     print(targetFileName) 
 
     #search for the built target file
-    os.system("find /Users/gs/Documents/Capstone/user-project{}/master-bin/* -name {} > targetLoaction.txt".format(i, targetFileName))
-    searchfile1 = open(("/Users/gs/Documents/Capstone/user-project{}/master-bin/targetLoaction.txt").format(i), "r")
+    os.system("find /Users/gs/Documents/WebCodeMap/user-project{}/master-bin/* -name {} > targetLoaction.txt".format(i, targetFileName))
+    searchfile1 = open(("/Users/gs/Documents/WebCodeMap/user-project{}/master-bin/targetLoaction.txt").format(i), "r")
     fileLocation = searchfile1.read().strip()
     searchfile1.close()
     print(fileLocation)
 
-    os.environ["LLVM_COMPILER_PATH"] = "/Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/bin"
+    os.environ["LLVM_COMPILER_PATH"] = "/Users/gs/Documents/WebCodeMap/SVF/llvm-6.0.0.obj/bin"
     os.system("Extract-bc -b {}".format(fileLocation))
     
-    os.chdir("/Users/gs/Documents/Capstone/SVF/SVF")
+    os.chdir("/Users/gs/Documents/WebCodeMap/SVF/SVF")
     os.system(". ./setup.sh")
     
     #os.system("which wpa")
     #os.chdir("/Users/gs/Documents/Capstone/user-project{}/master-bin".format(i))
 
-    os.system("cp /Users/gs/Documents/Capstone/user-project1/master-bin/test/mio.test.bc /Users/gs/Documents/Capstone/SVF/SVF")
+    os.system("cp /Users/gs/Documents/WebCodeMap/user-project1/master-bin/test/mio.test.bc /Users/gs/Documents/Capstone/SVF/SVF")
     bcfile = (targetFileName + ".bc")
     print(bcfile)
     os.environ["LLVM_COMPILER"] = "clang"
-    os.environ["LLVM_COMPILER_PATH"] = "/Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/bin"
+    os.environ["LLVM_COMPILER_PATH"] = "/Users/gs/Documents/WebCodeMap/SVF/llvm-6.0.0.obj/bin"
     os.system("clang -S -c -g -emit-llvm {} -o outputFile.bc".format(bcfile))
 
-    os.environ["PATH"] = "/Users/gs/Documents/Capstone/SVF/SVF/Release-build/bin:$PATH"
+    os.environ["PATH"] = "/Users/gs/Documents/WebCodeMap/SVF/SVF/Release-build/bin:$PATH"
     os.system("wpa -ander -dump-callgraph outputFile.bc")
     # data will be dumped to file 'callgraph_final.dot'
     mapGen.main()
