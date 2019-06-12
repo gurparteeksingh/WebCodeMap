@@ -67,7 +67,7 @@ def getLink():
     os.system("wpa -ander -dump-callgraph outputFile.bc > callGraphDump.txt")
     # data will be dumped to file 'callgraph_final.dot'
     #function from mapGen.py file
-    #mapGen.main()
+    mapGen.main()
     os.chdir("/Users/gs/Documents/WebCodeMap")
     os.remove("user-project/master.zip")
     return render_template('result.html', link=link)
