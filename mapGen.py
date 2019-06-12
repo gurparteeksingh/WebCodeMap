@@ -20,7 +20,7 @@ def main():
                 link = {"source" : n, "target" : target}
                 file["links"].append(link)
                 sys.stdout.write("%s,\n" % (json.dumps(file)))      
-    with open('/Users/gs/Documents/Capstone/static/datasets/blocks.json', 'w') as outfile:
+    with open('/Users/gs/Documents/WebCodeMap/static/datasets/blocks.json', 'w') as outfile:
         json.dump(file, outfile)
 if __name__ == "__main__":
     main()

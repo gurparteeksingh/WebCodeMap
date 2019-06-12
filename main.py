@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 import os
-import glob
+import sys
 import subprocess
 import importlib
 import mapGen
@@ -13,64 +13,63 @@ def index():
 
 @app.route('/', methods=["POST"])
 def getLink():
-    i = 1    
     link=request.form['test_form']
-    link = link[:-4]
-    print(link)
-    #if os.system("git clone " + link + " downloadedProject"):
-    #    raise RuntimeError('program {} failed!'.format("git clone " + link))
-    os.system("mkdir user-project{}".format(i))
-    os.chdir("user-project{}".format(i))
+    #if statement to remove .git from URL (only if user inputs url link with .git)
+    if link[-4:] == ".git":
+        link = link[:-4]
+    #makes a new project folder for the user downloaded project
+    os.system("mkdir user-project")
+    os.chdir("user-project")
+    #downloads the github projecct as zip file
     os.system("wget " + link + "/archive/master.zip")
+    #makes new dir named extracted-files and extracts all content from the downloaded zip file
     os.system("mkdir extracted-files")
     os.system("tar xf master.zip -C extracted-files --strip-components 1")
     os.system("mkdir master-bin")
     os.chdir("master-bin")
+
+    #uses wllvm (https://github.com/travitch/whole-program-llvm)
     os.environ["LLVM_COMPILER"] = "clang"
     os.system("CC=wllvm CXX=wllvm++ cmake ../extracted-files/")
     #make command output in makeOutput.txt file
     os.system("make > makeOutput.txt") 
-
-    #search for the built target file name
-    searchfile = open(("/Users/gs/Documents/WebCodeMap/user-project{}/master-bin/makeOutput.txt").format(i), "r")
+    #search for the built target file name in makeOutput.txt
+    searchfile = open(("/Users/gs/Documents/WebCodeMap/user-project/master-bin/makeOutput.txt"), "r")
     for line in searchfile:
         if "[100%] Built target" in line: 
             lastLine = line
     searchfile.close()
-    
+     #name of the build target file in varaible targetFile
     stringList = lastLine.split()
     targetFileName = stringList[-1]
-    #name of the build target file in varaible targetFile
-    print(targetFileName) 
-
-    #search for the built target file
-    os.system("find /Users/gs/Documents/WebCodeMap/user-project{}/master-bin/* -name {} > targetLoaction.txt".format(i, targetFileName))
-    searchfile1 = open(("/Users/gs/Documents/WebCodeMap/user-project{}/master-bin/targetLoaction.txt").format(i), "r")
+    #search for the built target file by finding its location
+    os.system("find /Users/gs/Documents/WebCodeMap/user-project/master-bin/* -name {} > targetLoaction.txt".format(targetFileName))
+    searchfile1 = open(("/Users/gs/Documents/WebCodeMap/user-project/master-bin/targetLoaction.txt"), "r")
     fileLocation = searchfile1.read().strip()
     searchfile1.close()
-    print(fileLocation)
-
-    os.environ["LLVM_COMPILER_PATH"] = "/Users/gs/Documents/WebCodeMap/SVF/llvm-6.0.0.obj/bin"
+    #sets the llvm compiler path
+    os.environ["LLVM_COMPILER_PATH"] = "/Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/bin"
+    #extracts bitcode directly into a module (creats a bitcode file)
     os.system("Extract-bc -b {}".format(fileLocation))
-    
-    os.chdir("/Users/gs/Documents/WebCodeMap/SVF/SVF")
-    os.system(". ./setup.sh")
-    
-    #os.system("which wpa")
-    #os.chdir("/Users/gs/Documents/Capstone/user-project{}/master-bin".format(i))
 
-    os.system("cp /Users/gs/Documents/WebCodeMap/user-project1/master-bin/test/mio.test.bc /Users/gs/Documents/Capstone/SVF/SVF")
+    #uses SVF (https://github.com/SVF-tools/SVF)
+    os.chdir("/Users/gs/Documents/Capstone/SVF/SVF")
+    os.system(". ./setup.sh")
+
+    os.system("cp {}.bc /Users/gs/Documents/Capstone/SVF/SVF".format(fileLocation))
+    #LLVM COMPILER set as clang and path selected
     bcfile = (targetFileName + ".bc")
-    print(bcfile)
     os.environ["LLVM_COMPILER"] = "clang"
-    os.environ["LLVM_COMPILER_PATH"] = "/Users/gs/Documents/WebCodeMap/SVF/llvm-6.0.0.obj/bin"
+    os.environ["LLVM_COMPILER_PATH"] = "/Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/bin"
     os.system("clang -S -c -g -emit-llvm {} -o outputFile.bc".format(bcfile))
 
-    os.environ["PATH"] = "/Users/gs/Documents/WebCodeMap/SVF/SVF/Release-build/bin:$PATH"
-    os.system("wpa -ander -dump-callgraph outputFile.bc")
+    os.environ["PATH"] = "/Users/gs/Documents/Capstone/SVF/SVF/Release-build/bin:$PATH"
+    os.system("wpa -ander -dump-callgraph outputFile.bc > callGraphDump.txt")
     # data will be dumped to file 'callgraph_final.dot'
-    mapGen.main()
-    i = i + 1
+    #function from mapGen.py file
+    #mapGen.main()
+    os.chdir("/Users/gs/Documents/WebCodeMap")
+    os.remove("user-project/master.zip")
     return render_template('result.html', link=link)
 
 @app.route('/getGraph', methods=["POST"])
