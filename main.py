@@ -1,5 +1,4 @@
 #Authors: Gurparteek Singh and Vishal Uniyal
-#Date Modified: 10 June 2019
 from flask import Flask, render_template, request
 import os
 import sys

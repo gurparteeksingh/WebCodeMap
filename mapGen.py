@@ -28,3 +28,5 @@ def main():
         json.dump(file, outfile)
 if __name__ == "__main__":
     main()
+
+#Authors: Vishal Uniyal and Gurparteek Singh
