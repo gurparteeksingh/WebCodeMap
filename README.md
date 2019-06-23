@@ -1,7 +1,7 @@
 # **What is CodeMap?**
 EXPLAIN CodeMap
 
-<Insert YouTube Video Link>
+**Insert YouTube Video Link**
 
 # **Guides**
 | Setup Guide   | User Guide    | Developer Guide   |
