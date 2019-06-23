@@ -4,15 +4,11 @@ EXPLAIN CodeMap
 **Insert YouTube Video Link**
 
 # Guides
-| User Guide    | Developer Guide   |
+| Installation Guide    |User Guide   |
 | ------------- | -------------     |
-| [User Guide](https://github.com/gpteek/WebCodeMap/#User-Guide)|[Developer Guide](https://github.com/gpteek/WebCodeMap/#Developer-Guide) |
+| [Installation Guide](https://github.com/gpteek/WebCodeMap/#Installation-Guide)|[User Guide](https://github.com/gpteek/WebCodeMap/#User-Guide) |
 
-## User-Guide
-
-
-
-## Developer-Guide
+## Installation-Guide
 ### Step 1: SVF
 i. Install SVF Tool
 ```
@@ -91,6 +87,21 @@ CodeMapRepoLoaction = [Change to location where you cloned this repository]
 SVFfolderlocation = [Change to location where you installed SVF]
   i.e. "/Users/gs/Documents/Capstone/SVF/SVF"
 ```
+
+
+## User-Guide
+i. Complete all the installation steps using 
+[Installation Guide](https://github.com/gpteek/WebCodeMap/#Installation-Guide)
+
+ii. Use terminal to change directory to this repository folder and run main.py using python
+```
+python3 main.py
+```
+
+iii. Paste a C or C++ Github Repository Project Link on the webserver
+
+iv. Click "Get Graph" to view your generated graph
+
 
 # Contributors
 Gurparteek Singh, Vishal Uniyal and Yulei Sui (Project Supervisor)
