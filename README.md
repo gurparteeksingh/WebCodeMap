@@ -14,7 +14,11 @@ EXPLAIN CodeMap
 
 ## Developer-Guide
 ### Step 1: SVF
-
+i. Install SVF Tool
+```
+Follow instructions on https://github.com/SVF-tools/SVF/wiki/Setup-Guide-(CMake)
+```
+Once SVF has been installed, complete the following steps.
 
 ### Step 2: WLLVM
 i. Clone WLLVM GitHub Repository
@@ -69,9 +73,17 @@ git clone https://github.com/gpteek/webcodemap
 
 ### Step 5: Last Steps
 i. Make the following changes in the file main.py
+
+a. Line 39
 ```
-ADD
+searchfile = open(("$LOCATION/user-project/master-bin/makeOutput.txt"), "r")
+$LOCATION is where you cloned this repository
 ```
+b. Line 48
+```
+os.system("find $LOCATION/user-project/master-bin/* -name {} > targetLoaction.txt".format(targetFileName))
+$LOCATION is where you cloned this repository
+``` 
 
 ii. Make the following changes in the file mapGen.py
 ```
