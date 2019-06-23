@@ -1,9 +1,17 @@
+#Authors: Gurparteek Singh and Vishal Uniyal
+#Date Modified: 10 June 2019
 from flask import Flask, render_template, request
 import os
 import sys
 import subprocess
 import importlib
 import mapGen
+
+#Edit the following:
+CodeMapRepoLoaction = "/Users/gs/Documents/WebCodeMap"
+LLVMfolder = "/Users/gs/Documents/Capstone/SVF"
+SVFfolderlocation = "/Users/gs/Documents/Capstone/SVF/SVF"
+
 
 app = Flask(__name__)
 
@@ -34,7 +42,7 @@ def getLink():
     #make command output in makeOutput.txt file
     os.system("make > makeOutput.txt") 
     #search for the built target file name in makeOutput.txt
-    searchfile = open(("/Users/gs/Documents/WebCodeMap/user-project/master-bin/makeOutput.txt"), "r")
+    searchfile = open(("{}/user-project/master-bin/makeOutput.txt".format(CodeMapRepoLoaction)), "r")
     for line in searchfile:
         if "[100%] Built target" in line: 
             lastLine = line
@@ -43,32 +51,32 @@ def getLink():
     stringList = lastLine.split()
     targetFileName = stringList[-1]
     #search for the built target file by finding its location
-    os.system("find /Users/gs/Documents/WebCodeMap/user-project/master-bin/* -name {} > targetLoaction.txt".format(targetFileName))
-    searchfile1 = open(("/Users/gs/Documents/WebCodeMap/user-project/master-bin/targetLoaction.txt"), "r")
+    os.system("find {}/user-project/master-bin/* -name {} > targetLoaction.txt".format(CodeMapRepoLoaction, targetFileName))
+    searchfile1 = open(("{}/user-project/master-bin/targetLoaction.txt".format(CodeMapRepoLoaction)), "r")
     fileLocation = searchfile1.read().strip()
     searchfile1.close()
     #sets the llvm compiler path
-    os.environ["LLVM_COMPILER_PATH"] = "/Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/bin"
+    os.environ["LLVM_COMPILER_PATH"] = "{}/llvm-6.0.0.obj/bin".format(LLVMfolder)
     #extracts bitcode directly into a module (creats a bitcode file)
     os.system("Extract-bc -b {}".format(fileLocation))
 
     #uses SVF (https://github.com/SVF-tools/SVF)
-    os.chdir("/Users/gs/Documents/Capstone/SVF/SVF")
+    os.chdir("{}".format(SVFfolderlocation))
     os.system(". ./setup.sh")
 
-    os.system("cp {}.bc /Users/gs/Documents/Capstone/SVF/SVF".format(fileLocation))
+    os.system("cp {}.bc {}".format(fileLocation, SVFfolderlocation))
     #LLVM COMPILER set as clang and path selected
     bcfile = (targetFileName + ".bc")
     os.environ["LLVM_COMPILER"] = "clang"
-    os.environ["LLVM_COMPILER_PATH"] = "/Users/gs/Documents/Capstone/SVF/llvm-6.0.0.obj/bin"
+    os.environ["LLVM_COMPILER_PATH"] = "{}/llvm-6.0.0.obj/bin".format(LLVMfolder)
     os.system("clang -S -c -g -emit-llvm {} -o outputFile.bc".format(bcfile))
 
-    os.environ["PATH"] = "/Users/gs/Documents/Capstone/SVF/SVF/Release-build/bin:$PATH"
+    os.environ["PATH"] = "{}/Release-build/bin:$PATH".format(SVFfolderlocation)
     os.system("wpa -ander -dump-callgraph outputFile.bc > callGraphDump.txt")
     # data will be dumped to file 'callgraph_final.dot'
     #function from mapGen.py file
     mapGen.main()
-    os.chdir("/Users/gs/Documents/WebCodeMap")
+    os.chdir("{}".format(CodeMapRepoLoaction))
     os.remove("user-project/master.zip")
     return render_template('result.html', link=link)
 
