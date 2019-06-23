@@ -71,23 +71,25 @@ i. Clone CodeMap GitHub Repository
 git clone https://github.com/gpteek/webcodemap
 ```
 
-### Step 5: Last Steps
+### Step 5: Change Paths
 i. Make the following changes in the file main.py
 
-a. Line 39
+a. Edit the following paths to the respective locations on your computer
 ```
-searchfile = open(("$LOCATION/user-project/master-bin/makeOutput.txt"), "r")
-$LOCATION is where you cloned this repository
+CodeMapRepoLoaction = [Change to location where you cloned this repository]
+  i.e. "/Users/gs/Documents/WebCodeMap"
+LLVMfolder = [Change to location where you installed LLVM]
+  i.e. "/Users/gs/Documents/Capstone/SVF"
+SVFfolderlocation = [Change to location where you installed SVF]
+  i.e. "/Users/gs/Documents/Capstone/SVF/SVF"
 ```
-b. Line 48
-```
-os.system("find $LOCATION/user-project/master-bin/* -name {} > targetLoaction.txt".format(targetFileName))
-$LOCATION is where you cloned this repository
-``` 
 
 ii. Make the following changes in the file mapGen.py
 ```
-ADD
+CodeMapRepoLoaction = [Change to location where you cloned this repository]
+  i.e. "/Users/gs/Documents/WebCodeMap"
+SVFfolderlocation = [Change to location where you installed SVF]
+  i.e. "/Users/gs/Documents/Capstone/SVF/SVF"
 ```
 
 # Contributors
