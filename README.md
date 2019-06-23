@@ -3,9 +3,11 @@ EXPLAIN CodeMap
 
 **Insert YouTube Video Link**
 
+
 # Guides
-| Installation Guide    |User Guide   |
+| Installation Guide | User Guide   |
 | ------------- | -------------     |
+|<img src="https://github.com/gpteek/WebCodeMap/blob/master/github-images/install-icon.png" width="50" height="50" />| <img src="https://github.com/gpteek/WebCodeMap/blob/master/github-images/user-icon.png" width="50" height="50" /> |
 | [Installation Guide](https://github.com/gpteek/WebCodeMap/#Installation-Guide)|[User Guide](https://github.com/gpteek/WebCodeMap/#User-Guide) |
 
 ## Installation-Guide
