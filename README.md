@@ -4,9 +4,9 @@ EXPLAIN CodeMap
 **Insert YouTube Video Link**
 
 # **Guides**
-| Setup Guide   | User Guide    | Developer Guide   |
-| ------------- | ------------- | -------------     |
-|               | [User Guide](https://github.com/SVF-tools/CodeMap/wiki/User-Guide)|[Developer Guide](https://github.com/SVF-tools/CodeMap/wiki/Developer-Guide) |
+| User Guide    | Developer Guide   |
+| ------------- | -------------     |
+| [User Guide](https://github.com/gpteek/WebCodeMap/wiki/User-Guide)|[Developer Guide](https://github.com/gpteek/WebCodeMap/wiki/Developer-Guide) |
 
 
 # **Contributors**
