@@ -5,12 +5,12 @@ EXPLAIN CodeMap
 
 
 # Guides
-| Installation Guide | User Guide   |
+| Install Guide | User Guide   |
 | ------------- | -------------     |
-|<img src="https://github.com/gpteek/WebCodeMap/blob/master/github-images/install-icon.png" width="50" height="50" />| <img src="https://github.com/gpteek/WebCodeMap/blob/master/github-images/user-icon.png" width="50" height="50" /> |
-| [Installation Guide](https://github.com/gpteek/WebCodeMap/#Installation-Guide)|[User Guide](https://github.com/gpteek/WebCodeMap/#User-Guide) |
+|<img src="https://github.com/gpteek/WebCodeMap/blob/master/github-images/install-icon.png" width="75" height="75" />| <img src="https://github.com/gpteek/WebCodeMap/blob/master/github-images/user-icon.png" width="75" height="75" /> |
+| [Install Guide](https://github.com/gpteek/WebCodeMap/#Install-Guide)|[User Guide](https://github.com/gpteek/WebCodeMap/#User-Guide) |
 
-## Installation-Guide
+## Install-Guide
 ### Step 1: SVF
 i. Install SVF Tool
 ```
@@ -93,7 +93,7 @@ SVFfolderlocation = [Change to location where you installed SVF]
 
 ## User-Guide
 i. Complete all the installation steps using 
-[Installation Guide](https://github.com/gpteek/WebCodeMap/#Installation-Guide)
+[Installation Guide](https://github.com/gpteek/WebCodeMap/#Install-Guide)
 
 ii. Use terminal to change directory to this repository folder and run main.py using python
 ```
