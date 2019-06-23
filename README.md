@@ -8,6 +8,8 @@ EXPLAIN CodeMap
 Example 1:
 <img src="https://github.com/gpteek/WebCodeMap/blob/master/github-images/codemap-example1.png" width="1250" height="500" />
 
+Example 2:
+<img src="https://github.com/gpteek/WebCodeMap/blob/master/github-images/codemap-example2.png" width="1250" height="500" />
 
 # Guides
 | Install Guide | User Guide   |
