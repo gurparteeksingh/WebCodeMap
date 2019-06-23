@@ -46,7 +46,7 @@ def getLink():
         if "[100%] Built target" in line: 
             lastLine = line
     searchfile.close()
-     #name of the build target file in varaible targetFile
+    #name of the build target file in varaible targetFile
     stringList = lastLine.split()
     targetFileName = stringList[-1]
     #search for the built target file by finding its location
