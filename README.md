@@ -3,6 +3,11 @@ EXPLAIN CodeMap
 
 **Insert YouTube Video Link**
 
+**Example Code Map**
+
+Example 1:
+<img src="https://github.com/gpteek/WebCodeMap/blob/master/github-images/codemap-example1.png" width="1250" height="500" />
+
 
 # Guides
 | Install Guide | User Guide   |
