@@ -1,13 +1,13 @@
 # What is CodeMap?
 CodeMap is a web application that lets you visualise your C or C++ GitHub project through an interactive graph. You only need to paste the url for your project and CodeMap does everything else for you! 
 
-**Video Demonstration**
-
-https://youtu.be/NogQDTVjAdA
+**Video Demonstration: Click on the image**
+[![CodeMap Demonstartion](https://github.com/gpteek/WebCodeMap/blob/master/github-images/youtube-thumbnail.png)](https://youtu.be/NogQDTVjAdA)
 
 **Example Code Map**
 
 Example 1:
+
 <img src="https://github.com/gpteek/WebCodeMap/blob/master/github-images/codemap-example1.png" width="1250" height="500" />
 
 Example 2:
